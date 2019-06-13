@@ -38,11 +38,11 @@ values."
      ;; ----------------------------------------------------------------
      helm
      (auto-completion :variables auto-completion-enable-snippets-in-popup t)
-     (clojure :variables clojure-enable-fancify-symbols t)
+     ;; (clojure :variables clojure-enable-fancify-symbols t)
      better-defaults
      emacs-lisp
      python
-      git
+     git
      markdown
      org
      (shell :variables
@@ -258,7 +258,7 @@ values."
    ;; (default nil)
    dotspacemacs-smartparens-strict-mode nil
    ;; If non-nil pressing the closing parenthesis `)' key in insert mode passes
-   ;; over any automatically added closing parenthesis, bracket, quote, etc…
+   ;; over any automatically added closing parenthesis, bracket, quote, etcÂ…
    ;; This can be temporary disabled by pressing `C-q' before `)'. (default nil)
    dotspacemacs-smart-closing-parenthesis nil
    ;; Select a scope to highlight delimiters. Possible values are `any',
